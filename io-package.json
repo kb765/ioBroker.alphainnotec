@@ -1,0 +1,71 @@
+{
+  "common": {
+    "name": "alphainnotec",
+    "version": "1.0.8",
+    "news": {
+      "1.0.8": {
+        "en": "Dynamic state hierarchy, sanitize trailing dots/underscores, reduce verbose logging"
+      },
+      "1.0.7": {
+        "en": "Fix WS Content section parsing to extract actual section names from <name> tags"
+      },
+      "1.0.5": {
+        "en": "Fix stale dist deploy, improve WS parsing and triple-guard JS library rejection"
+      },
+      "1.0.4": {
+        "en": "Filter script/css fallback sources and improve websocket refresh requests"
+      },
+      "1.0.3": {
+        "en": "Improved websocket navigation traversal and measurement key detection"
+      },
+      "1.0.2": {
+        "en": "Recursive websocket item traversal for nested Luxtronik pages"
+      },
+      "1.0.1": {
+        "en": "Improved websocket parsing diagnostics and fallback handling"
+      },
+      "1.0.0": {
+        "en": "Initial release"
+      }
+    },
+    "titleLang": {
+      "en": "alpha innotec Luxtronik"
+    },
+    "desc": {
+      "en": "Reads temperatures from Luxtronik web frontend"
+    },
+    "authors": [
+      "Your Name <you@example.com>"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "alphainnotec.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.alphainnotec/master/admin/alphainnotec.png",
+    "readme": "https://github.com/ioBroker/ioBroker.alphainnotec/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "climate-control",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.0"
+      }
+    ]
+  },
+  "native": {
+    "ip": "",
+    "pin": "",
+    "pollInterval": 60,
+    "dataUrl": "",
+    "wsPort": 8214
+  },
+  "objects": [],
+  "instanceObjects": []
+}

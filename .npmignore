@@ -1,0 +1,5 @@
+*.tgz
+src/
+.github/
+.vscode/
+tsconfig.json

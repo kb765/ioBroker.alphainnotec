@@ -1,0 +1,13 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created. (done)
+- [x] Clarify Project Requirements. (done: ioBroker adapter, TypeScript, Luxtronik web frontend, config fields ip/pin)
+- [x] Scaffold the Project. (done: Node.js + TypeScript workspace with ioBroker adapter structure)
+- [x] Customize the Project. (done: polling logic, endpoint attempts, temperature states)
+- [x] Install Required Extensions. (skipped: get_project_setup_info returned none)
+- [x] Compile the Project. (done: npm run build passes)
+- [x] Create and Run Task. (done: VS Code task 'build adapter' created and executed)
+- [x] Launch the Project. (skipped: debug launch not requested)
+- [x] Ensure Documentation is Complete. (done: README.md and this file updated)
+
+- Work through each checklist item systematically.
+- Keep communication concise and focused.
+- Follow development best practices.
