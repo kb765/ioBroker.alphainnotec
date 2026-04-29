@@ -133,11 +133,10 @@ iobroker restart alphainnotec.0
 
 ## License
 
-MIT
+CC BY-NC-SA 4.0
 
 ## Support
 
 For issues, feature requests, or questions:
 - Check existing issues on GitHub
 - Review ioBroker adapter documentation: https://github.com/ioBroker/ioBroker.adapter-creator
-
