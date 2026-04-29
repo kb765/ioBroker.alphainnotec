@@ -1,0 +1,35 @@
+{
+  "type": "panel",
+  "items": {
+    "ip": {
+      "type": "text",
+      "label": "Luxtronik IP",
+      "help": "IP address of the Luxtronik web frontend"
+    },
+    "pin": {
+      "type": "password",
+      "label": "PIN",
+      "help": "PIN used for authentication"
+    },
+    "pollInterval": {
+      "type": "number",
+      "label": "Poll interval (seconds)",
+      "min": 15,
+      "max": 3600,
+      "default": 60
+    },
+    "dataUrl": {
+      "type": "text",
+      "label": "Optional data URL",
+      "help": "Optional path or full URL for a Luxtronik data page/API, e.g. /temperaturen.html"
+    },
+    "wsPort": {
+      "type": "number",
+      "label": "WebSocket port",
+      "help": "Luxtronik websocket port (default 8214)",
+      "default": 8214,
+      "min": 1,
+      "max": 65535
+    }
+  }
+}
